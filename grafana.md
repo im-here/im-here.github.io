@@ -1,5 +1,5 @@
 ## Grafana+Loki+Prometheus
-[Grafana官方文档](https://grafana.com/docs)
+[Grafana官方文档](https://grafana.com/docs) |
 [Prometheus官方文档](https://prometheus.io/docs)
 
 安装插件（用于收集docker日志）
@@ -122,7 +122,7 @@ scrape_configs:
 ````
 ### node_exporter
 
-1.软件包下载地址：https://prometheus.io/download
+1.软件包下载[地址](https://prometheus.io/download)
 
 2.解压并将二进制文件拷贝至/usr/local/bin
 
@@ -152,11 +152,10 @@ PrivateTmp=True
 WantedBy=default.target
 ````
 
-4.启动node_exporter:``systemctl start node-exporter.service
+4.启动node_exporter: ``systemctl start node-exporter.service``
 
 > 导入 Dashboard 模板
 
-node_exporter 模板地址：https://grafana.com/dashboards/1860
+[node_exporter 模板地址](https://grafana.com/dashboards/1860)
 
-### CPU计算参考
-https://wiki.eryajf.net/pages/3814.html
+[CPU计算参考](https://wiki.eryajf.net/pages/3814.html)
